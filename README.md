@@ -1,7 +1,7 @@
 # Font-awesome-pro
 Font awesome icons use for free
 
-## [Preview & Download](https://fontawesome.com)
+## [Preview & Download](https://fontawesomepro.herokuapp.com/)
 
 FontAwesome is an icon set and toolkit that provides many different icons in many different formats for use on the web (and native apps built with web technology).
 
