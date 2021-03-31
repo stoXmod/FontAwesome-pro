@@ -7,7 +7,7 @@ FontAwesome is an icon set and toolkit that provides many different icons in man
 
 It is primarily based on using a special icon font (there are also SVG fallbacks but those are not used by Fonto). That means that based on a unicode value, a certain glyph is rendered from a special FontAwesome font which looks like a certain icon. Based on a CSS class, like .fa-undo, the ::before pseudo element's content is set to a certain unicode value (for undo it's \f0e2). Then together with the CSS rule: font-family: "Font Awesome Pro", an undo icon appears.
 
-<h1><img src="https://img.fortawesome.com/349cfdf6/logo-fa-free.svg" alt="Font Awesome 5 Pro" width="50%"></h1>
+<h1><img src="https://img.fortawesome.com/349cfdf6/logo-fa-pro.svg" alt="Font Awesome 5 Pro" width="50%"></h1>
 
 > Version 5 – the iconic SVG, font, and CSS framework
 
