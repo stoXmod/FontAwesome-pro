@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/js/pro.min.js">
+    <title>Fontawesome pro</title>
+    <style>
+        .card i {
+            margin: 10px;
+            font-size: 25px;
+            color: green;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            background-color: #dedede;
+        }
+
+        .folder-tree-wrapper {
+            background-color: #fff;
+            width: 220px;
+            min-height: 260px;
+            padding: 20px;
+            margin: 35px auto;
+            border-radius: 3px;
+            box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, .11);
+        }
+
+        .folder-tree {
+            list-style: none;
+            cursor: pointer;
+            padding-left: 20px;
+        }
+
+        .folder-tree li {
+            margin-bottom: 10px;
+            font-size: 14px;
+            transition: all .4s ease;
+            position: relative;
+        }
+
+        .folder-tree li i {
+            color: rgb(242, 176, 53);
+        }
+
+        .folder-tree li ul {
+            padding-left: 10px;
+            padding-top: 8px;
+        }
+
+        .folder-tree ul {
+            display: none;
+            position: relative;
+        }
+
+        .folder-tree ul:before {
+            position: absolute;
+            content: '';
+            left: -10px;
+            top: 0;
+            width: 2px;
+            height: 100%;
+            background-color: transparent;
+            border-left: dashed 1px #c2c2c2;
+            border-bottom: dashed 1px #c2c2c2;
+        }
+
+        .folder-tree li ul li {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .folder-tree .arrow {
+            position: absolute;
+            top: 4px;
+            left: -14px;
+            width: 8px;
+            height: 8px;
+            transition: all .4s ease;
+            transform: rotate(-90deg);
+        }
+
+        .folder-tree .arrow i {
+            color: #595959;
+            transition: all .4s ease;
+            position: absolute;
+            font-size: 10px;
+        }
+
+        .folder-tree .arrow:hover i {
+            color: #292929;
+        }
+
+        .folder-tree li.expanded>ul {
+            display: block;
+        }
+
+        .folder-tree li.expanded>.arrow {
+            transform: rotate(0deg);
+        }
+    </style>
+</head>
+
+<body class="p-5">
+
+    <h2 class="text-center">Font awesome pro <span class="text-muted">(5.x)</span> icons by <a
+            href="https://www.facebook.com/stoXmodLK"><code class="text-danger">stoXmod</code></a></h2>
+
+    <div class="card d-block mt-4 p-4">
+        <i class="far fa-box-full"></i>
+        <i class="fas fa-container-storage"></i>
+        <i class="fal fa-people-carry"></i>
+        <i class="far fa-box-heart"></i>
+        <i class="fad fa-stop-circle"></i>
+        <i class="fas fa-abacus"></i>
+        <i class="fas fa-acorn"></i>
+        <i class="fal fa-american-sign-language-interpreting"></i>
+        <i class="far fa-alien-monster"></i>
+        <i class="far fa-disc-drive"></i>
+        <i class="far fa-music"></i>
+        <i class="fas fa-list-music"></i>
+        <i class="fad fa-drum"></i>
+        <i class="far fa-boombox"></i>
+        <i class="fad fa-laptop-code"></i>
+        <i class="fas fa-head-side-headphones"></i>
+        <i class="fad fa-bells"></i>
+        <i class="far fa-whistle"></i>
+        <i class="fal fa-waveform"></i>
+        <i class="far fa-banjo"></i>
+        <i class="fad fa-trumpet"></i>
+        <i class="far fa-steering-wheel"></i>
+        <i class="fas fa-sim-card"></i>
+        <i class="fal fa-podcast"></i>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <button onclick="window.location.href='/downloads/font-awesome-pro by stoXmod.zip'" class="btn btn-success px-5 py-3 dwnbtn">Download</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="folder-tree-wrapper">
+        <ul class="folder-tree">
+            <li><i class="fa fa-folder"></i> assets (3)
+                <div class="arrow"><i class="fa fa-angle-down"></i></div>
+                <ul>
+                    <li><i class="fa fa-folder"></i> css (1)
+                        <div class="arrow"><i class="fa fa-angle-down"></i></div>
+                        <ul>
+                            <li><i class="far fa-file-code"></i> all.min.css</li>
+                        </ul>
+                    </li>
+                    <li><i class="fa fa-folder"></i> js (1)
+                        <div class="arrow"><i class="fa fa-angle-down"></i></div>
+                        <ul>
+                            <li><i class="far fa-file-code"></i> pro.min.js</li>
+                        </ul>
+                    </li>
+                    <li><i class="fa fa-folder"></i> webfonts (840)
+                    </li>
+                </ul>
+
+            </li>
+            <li><i class="far fa-file-code"></i> index.html</li>
+        </ul>
+    </div>
+
+    <div class="d-flex align-items-end position-absolute" style="bottom: 10px;">
+        <p class="text-center text-muted">For education purposes only !</p>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('.folder-tree li').click(function (evt) {
+                evt.stopPropagation();
+                $(this).toggleClass('expanded');
+            });
+        });
+
+        $('.dwnbtn').click(function(){
+            window.alert('Thank you for downloading. Happy hacking :) - stoXmod')
+        })
+    </script>
+</body>
+
+</html>
